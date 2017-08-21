@@ -532,7 +532,8 @@ input[type='checkbox'] {
   display: none;
 }
 #top-row .navigation {
-  float: right;
+  float: inherit;
+  width: 1345px;
 }
 #top-row .navigation ul.sf-menu {
   position: relative;

@@ -532,8 +532,8 @@ input[type='checkbox'] {
   display: none;
 }
 #top-row .navigation {
-  float: inherit;
-  width: 1470px;
+  float: right;
+  /*width: 1470px;*/
 }
 #top-row .navigation ul.sf-menu {
   position: relative;
@@ -565,14 +565,14 @@ input[type='checkbox'] {
 }
 #top-row .navigation ul.sf-menu > li > a,
 #top-row .navigation ul.sf-menu > li > span {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 64px;
   font-family: 'open_sansregular';
   color: #333333;
   height: 64px;
   text-transform: uppercase;
   display: block;
-  width: 117px;
+  width: 90px;
   text-align: center;
   border-bottom: 0px solid transparent;
   -webkit-transition: all 0.3s ease;

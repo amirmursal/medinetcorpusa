@@ -19,7 +19,7 @@ $msg = $_POST['message'];
 	$msg->TextOnly = true;
 	$msg->Content = $message;
 	$SendSuccess = $msg->Send();
-	header("Location: Thanks.htm");
+	header("Location: Thanks.html");
 }
 ?>
 <? ob_flush(); ?>

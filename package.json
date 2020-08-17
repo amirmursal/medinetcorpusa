@@ -1,13 +1,11 @@
 {
   "name": "medinetcorpusa",
   "version": "1.0.0",
-  "description": "",
+  "license": "MIT",
   "scripts": {
     "start": "lite-server -c bs-config.js"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.16.2",
     "lite-server": "^2.3.0"
   }
